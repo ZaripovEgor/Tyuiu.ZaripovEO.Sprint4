@@ -43,7 +43,7 @@ namespace Tyuiu.ZaripovEO.Sprint4.Task2.V29
             Console.WriteLine("Массив: ");
             for (int i = 0; i <= len - 1; i++)
             {
-                Console.WriteLine(numsArray[i] + "\t");
+                Console.Write(numsArray[i] + "\t");
             }
             Console.WriteLine();
             Console.WriteLine();
@@ -53,8 +53,14 @@ namespace Tyuiu.ZaripovEO.Sprint4.Task2.V29
             Console.WriteLine("***************************************************************************");
 
             int res = ds.Calculate(numsArray);
-
-            Console.WriteLine("Произведение чётных элементов: " + res);
+            if (res == -1)
+            {
+                Console.WriteLine("Не обнаруженно чётных элементов");
+            }
+            else
+            {
+                Console.WriteLine("Произведение чётных элементов: " + res);
+            }
             Console.ReadKey();
         }
     }
