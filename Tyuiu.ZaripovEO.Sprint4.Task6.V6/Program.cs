@@ -16,7 +16,7 @@ namespace Tyuiu.ZaripovEO.Sprint4.Task6.V6
             Console.Title = "Спринт №4 | Выполнил: Зарипов Е. О. | ИСТНб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Двумерные массивы. (генератор случайных чисел                     *");
+            Console.WriteLine("* Тема: Класс Array                                                       *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
             Console.WriteLine("* Выполнил: Зарипов Егор Олегович | ИСТНб-23-1                            *");
